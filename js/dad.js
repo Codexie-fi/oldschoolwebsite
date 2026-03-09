@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>salainen</title>
-</head>
-<body>
-
-<h1>hyvää työtä!</h1>
-<h2>tässä on palkinto:</h2>
-<img src="img/chest.png">
-<h1>Random isä vitsi</h1>
-<p id="joke">Loading joke...</p>
-
-<script>
 async function loadJoke() {
   const jokeEl = document.getElementById("joke");
 
@@ -32,9 +17,5 @@ async function loadJoke() {
   }
 }
 
-// run when page loads
-window.addEventListener("DOMContentLoaded", loadJoke);
-</script>
 
-</body>
-</html>
+window.addEventListener("DOMContentLoaded", loadJoke);
