@@ -59,6 +59,10 @@ margin: 50px 50px;
 align-self: auto;
 }
 
-img.fat {
-
+img.weed {
+    width: 15vw;
+    height: 20vh;
+    position: relative;
+    left: 21vw;
+    top: -58vh;
 }
