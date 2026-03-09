@@ -37,7 +37,7 @@ h1.rainbow {
     -webkit-background-clip: text;
             background-clip: text;
     line-height: 1.4em;
-    animation: rainbow 50s linear infinite;
+    animation: rainbow 10s linear infinite;
 }
 
 @media screen and (max-width: 640px) {
