@@ -4,9 +4,11 @@ button.first {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     box-align: center;
-    width: 100px;
-    height: 30px;
-    margin: 0px 100px;
+    width: 5vw;
+    height: 6vh;
+    position: relative;
+    left: 6vw;
+    top: -45vh;
 }
 
 h1.rainbow {
@@ -55,4 +57,8 @@ h1.rainbow {
 img.MLG {
 margin: 50px 50px;
 align-self: auto;
+}
+
+img.fat {
+
 }
